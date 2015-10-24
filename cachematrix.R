@@ -70,7 +70,7 @@ makeCacheMatrix <- function(x = matrix()) {
 #
 cacheSolve <- function(x, ...) {
   # check the cache
-  theInverse = x$getInverse()
+  theInverse <- x$getInverse()
   
   # if the cache is empty, calculate
   # the inverse and cache it
